@@ -1,0 +1,9 @@
+curl -v localhost:8080/users
+
+curl -v localhost:8080/users -X PUT
+
+curl -v localhost:8080/users -X POST -d '{"name": "ashwin", "email": "iyerashwin.raja2019@vitstudent.ac.in", "password", "hello123"}'
+curl -v localhost:8080/users
+
+//select ID from JSON returned
+curl -v localhost:8080/users/%id
